@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables in CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Nature Park</h1>
+        <div class="box">
+            <h2>Waterfalls</h2>
+            <p>Waterfalls cascade, a liquid dance in nature's symphony, sculpting landscapes with timeless grace. Each drop whispers tales of resilience and beauty, etching memories in the rock's embrace.</p>
+        </div>
+        <div class="box">
+            <h2>Hills</h2>
+            <p>Hills rise like silent sentinels, guardians of tranquil valleys below, their undulating forms a testament to the quiet strength of the earth. In their gentle curves lies the promise of hidden vistas and the whispers of ancient stories carried on the wind.</p>
+        </div>
+        <div class="box">
+            <h2>Snow Mountains</h2>
+            <p>Snow-capped mountains pierce the sky, majestic and serene, their peaks touching the heavens in a timeless embrace. Amidst their icy embrace, a silent symphony unfolds, where the dance of snowflakes whispers tales of resilience and beauty to the world below.</p>
+        </div>
+
+        <button id="toggle" >switch</button>
+    </div>
+
+    <script>
+        const toggleBtn = document.getElementById('toggle');
+        toggleBtn.onclick = () => {
+            document.body.classList.toggle('dark');
+        }
+    </script>
+
+</body>
+</html>
